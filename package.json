@@ -1,0 +1,11 @@
+{
+  "name": "eslint-plugin-css-camel-sort",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "eslint-plugin": "^1.0.1",
+    "jest": "^29.7.0"
+  }
+}
