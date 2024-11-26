@@ -1,8 +1,17 @@
 {
   "name": "eslint-plugin-css-camel-sort",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "Recess-based object CSS property sort order for ESlint.",
   "main": "lib/index.js",
+  "repository": "refirst11/eslint-plugin-css-camel-sort",
   "license": "ISC",
+  "author": "Refirst",
+  "keywords": [
+    "property order",
+    "recess",
+    "eslint",
+    "eslint-plugin"
+  ],
   "devDependencies": {
     "eslint": "^9.15.0",
     "eslint-plugin": "^1.0.1",
