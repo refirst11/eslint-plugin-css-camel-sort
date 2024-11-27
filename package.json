@@ -6,6 +6,9 @@
   "repository": "refirst11/eslint-plugin-css-camel-sort",
   "license": "ISC",
   "author": "Refirst",
+  "scripts": {
+    "release": "changeset publish"
+  },
   "keywords": [
     "property order",
     "recess",
