@@ -36,6 +36,5 @@ npm install --sav-dev eslint eslint-plugin-css-camel-sort
 
 ## License
 
-This project is licensed under the ISC License.  
-It includes code modified from ISC-licensed software.  
-The original ISC license can be found [stylelint-config-recess-order](https://github.com/stormwarning/stylelint-config-recess-order?tab=readme-ov-file).
+ISC License: modified from [stylelint-config-recess-order](https://github.com/stormwarning/stylelint-config-recess-order?tab=readme-ov-file).  
+License terms preserved.
