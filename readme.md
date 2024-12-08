@@ -1,40 +1,37 @@
 # eslint-plugin-css-camel-sort
 
-A [Eslint](https://github.com/eslint/eslint) config that sorts camelCase CSS properties based on [Recess](https://github.com/twitter-archive/recess/blob/29bccc870b7b4ccaa0a138e504caf608a6606b59/lib/lint/strict-property-order.js).
+Fork of [stylelint-config-recess-order](https://github.com/stormwarning/stylelint-config-recess-order?tab=readme-ov-file) with object CSS properties sorts for use eslint-plugin.
+
+## Installation
+
+You'll first need to install [ESLint](https://eslint.org/):
+
+```sh
+npm i eslint --save-dev
+```
+
+Next, install `eslint-plugin-css-camel-sort`:
+
+```sh
+npm install eslint-plugin-css-camel-sort --save-dev
+```
 
 ## Usage
 
-1. Add eslint and this package to your project:
-
-```sh
-npm install --sav-dev eslint eslint-plugin-css-camel-sort
-```
-
-2. Configure in your `.eslintrc`:
+Add css-camel-sort to the plugins section of your `.eslintrc` configuration file. You can omit the eslint-plugin- prefix:
 
 ```json
 {
-  "plugins": ["css-camel-sort"],
+  "plugins": ["css-camel-sort"]
+}
+```
+
+Then add css-camel-sort rule under the rules section.
+
+```json
+{
   "rules": {
     "css-camel-sort/css-camel-sort": "warn"
   }
 }
 ```
-
-## Advanced
-
-3. Save and lint run: Add ESlint setting to your project in `.vscode/settings.json`
-
-```json
-{
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "always"
-  },
-  "eslint.validate": ["js", "jsx", "ts", "tsx"]
-}
-```
-
-## License
-
-ISC License: modified from [stylelint-config-recess-order](https://github.com/stormwarning/stylelint-config-recess-order?tab=readme-ov-file).  
-License terms preserved.
