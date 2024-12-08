@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-css-camel-sort",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "ESlint plugin for object CSS property sort fix",
   "main": "lib/index.js",
   "repository": "refirst11/eslint-plugin-css-camel-sort",
