@@ -1,5 +1,11 @@
 # eslint-plugin-css-camel-sort
 
+## 0.1.1
+
+### Patch Changes
+
+- 995a43c: fixed vendor prefix
+
 ## 0.1.0
 
 ### Minor Changes
